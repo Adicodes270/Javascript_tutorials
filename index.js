@@ -264,7 +264,46 @@ let elemClass = document.getElementsByClassName('container');
 // document.scripts  Used for DOM MANIPULATION
 
 // Query Selector
-sel = document.querySelector('.container');
-console.log(sel);
-selall = document.querySelectorAll('.container');
-console.log(selall);
+// sel = document.querySelector('.container');
+// console.log(sel);
+// selall = document.querySelectorAll('.container');
+// console.log(selall);
+
+// Events in JavaScript
+
+// function clicked(){
+//     document.querySelectorAll('.container')[1].innerHTML = <b>We have clicked bro</b>
+//     console.log("Button is clicked");
+//     return true;
+// }
+
+// window.onload = function(){
+//     console.log("The page was reloaded")
+// }
+
+// firstcontainer.addEventListener('click',function(){
+//     document.querySelectorAll('.container')[1].innerHTML = '<b>We have clicked bro</b>'
+//     console.log("Button is clicked");
+//     return true;
+    
+// })
+
+// firstcontainer.addEventListener('mouseover',function(){
+ 
+//         console.log("Mouse on container");
+// })
+// firstcontainer.addEventListener('mouseout',function(){
+ 
+//         console.log("Mouse out of container");
+// })
+
+// const prevHTML = document.querySelectorAll('.container')[1].innerHTML;
+// firstcontainer.addEventListener('mouseup',function(){
+//         document.querySelectorAll('.container')[1].innerHTML = prevHTML
+//         console.log("Pressed off");
+// })
+
+// firstcontainer.addEventListener('mousedown',function(){
+//         document.querySelectorAll('.container')[1].innerHTML = '<b>We have clicked bro</b>'
+//         console.log("Pressed on");
+// })
