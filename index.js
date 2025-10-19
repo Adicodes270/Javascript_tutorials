@@ -149,20 +149,82 @@ comment
 
 // console.log("If else ladder ended")
 
-function rasnawater(age){
-    if (age>18){
-        console.log("You can drink a glass of rasna water");
-    }
+// function rasnawater(age){
+//     if (age>18){
+//         console.log("You can drink a glass of rasna water");
+//     }
 
-    else if (age>13){
-        console.log("You can drink half glass of rasna water");   
-    }
+//     else if (age>13){
+//         console.log("You can drink half glass of rasna water");   
+//     }
 
-    else {
-        console.log("You cannot drink rasna water");
-    }
+//     else {
+//         console.log("You cannot drink rasna water");
+//     }
 
-}
+// }
 
-age = rasnawater(13);
-console.log(age);
+// age = rasnawater(13);
+// console.log(age);
+
+var arr = [1, 2, 3, 4, 5, 6, 7];
+// console.log(arr);
+
+// for (var i = 0; i < arr.length; i++) {
+//     if(i==2){
+//         // break;
+//         continue;
+//     }
+//     console.log(arr[i]);
+// }
+
+// arr.forEach(function(elemenet){
+//     console.log(element);
+// })
+
+// let j = 0;
+// // const ac = 0;
+// // ac++
+// // ac = ac + 1
+
+// // while (j<arr.length){
+// //     console.log(arr[j]);
+// //     j ++;
+// // }
+
+// // runs the code then checks condition instead of checking condition first
+// do {
+//     console.log(arr[j]);
+//     j++;
+// } while (j < arr.length) {
+
+// }
+
+// let myArr = ["Fan","Camera",32,null,true]
+// // Array Methods
+// console.log(myArr.length);
+// myArr.pop();
+// myArr.push("harry");
+// myArr.shift();
+// myArr.toString()
+// myArr.sort()
+// const newLen = myArr.unshift("Harry")
+// console.log(newLen);
+// console.log(myArr);
+
+// String Methods in JavaScript
+// let mystring = "harry is a good boy";
+// // console.log(mystring.length);
+// // console.log(mystring.indexOf("good"));
+// // console.log(mystring.lastIndexOf("good"));
+
+// // console.log(mystring.slice(1,3));
+// d = mystring.replace("Harry",Rohan)
+// console.log(d)
+
+let myDate = new Date();
+// console.log(myDate.getTime());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getDay());
+// console.log(myDate.getMinutes());
+// console.log(myDate.getHours());
