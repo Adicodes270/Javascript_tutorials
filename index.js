@@ -228,3 +228,43 @@ let myDate = new Date();
 // console.log(myDate.getDay());
 // console.log(myDate.getMinutes());
 // console.log(myDate.getHours());
+
+
+// DOM Manipulation
+
+let elemclick = document.getElementById('click');
+// console.log(elemclick);
+
+
+let elemClass = document.getElementsByClassName('container');
+// console.log(elemClass);
+
+// elemClass[0].style.background = 'yellow';
+// elemClass[0].classList.add("bg-primary");
+// elemClass[0].classList.add("text-success");
+// // console.log(elemclick.innerHTML);
+// // console.log(elemclick.innerText);
+// // console.log(elemClass[0].innerHTML);
+// // console.log(elemClass[0].innerText);
+// tn = document.getElementsByTagName('div');
+// console.log(tn);
+// createElement = document.createElement('p')
+// createElement.innerText = 'new child element'
+// createElement2 = document.createElement('b')
+// createElement2.innerText = 'new child element 3'
+// tn[0].appendChild(createElement);
+// tn[0].replaceChild(createElement2,createElement);
+// tn[0].removeChild(createElement2);
+
+// documents.links
+// document.images
+// document.forms
+// document.domain
+// document.URL
+// document.scripts  Used for DOM MANIPULATION
+
+// Query Selector
+sel = document.querySelector('.container');
+console.log(sel);
+selall = document.querySelectorAll('.container');
+console.log(selall);

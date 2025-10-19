@@ -1,20 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Tutorial</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 </head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        border: 2px solid red;
+        margin: 3px 0;
+        background: cyan;
+        padding: 5px;
+    }
+
+    .bg-primary {
+        background-color: blueviolet;
+    }
+
+    .text-success {
+        color: white;
+    }
+</style>
+
 <body>
     <h1>Welcome to my JavaScript Tutorial</h1>
-    <div id="firstcontainer"class="container">
+    <div id="firstcontainer" class="container">
         <button id="click">Click Me</button>
+        <h1>Hello World</h1>
     </div>
     <div class="container">
         <p>this is a paragraph</p>
+
     </div>
-  
+
 </body>
 
 </html>
