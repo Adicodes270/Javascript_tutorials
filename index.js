@@ -101,14 +101,68 @@ comment
 
 // Function in JavaScript
 // DRY = DO NOT REPEAT YOURSELF
-function avg(a,b){
-    c = (a+b)/2;
-    return c;
-}
+// function avg(a,b){
+//     c = (a+b)/2;
+//     return c;
+// }
 
-c = avg(4,6);
-c1 = avg(5,10);
-console.log(c,c1)
+// c = avg(4,6);
+// c1 = avg(5,10);
+// console.log(c,c1)
 
 // If u see something in blue in console its number
 // If u see something in black in console its string
+
+// Conditionals in JavaScript
+
+// var age = 34;
+
+// if - else statement
+// if (age > 18){
+//     console.log('You can drink rasna water');
+// }
+// else{
+//     console.log('You cannot drink rasna water');
+// }
+
+// Single IF
+// if (age > 18){
+//     console.log('You can drink rasna water');
+// }
+
+// if-else ladder
+
+// if (age > 32){
+//     console.log('You are not a kid');
+// }
+
+// else if(age>26){
+//     console.log("You are mature")
+// }
+// else if(age>18){
+//     console.log('You cannot drink rasna water');
+// }
+
+// else{
+//     console.log("You are noob")
+// }
+
+// console.log("If else ladder ended")
+
+function rasnawater(age){
+    if (age>18){
+        console.log("You can drink a glass of rasna water");
+    }
+
+    else if (age>13){
+        console.log("You can drink half glass of rasna water");   
+    }
+
+    else {
+        console.log("You cannot drink rasna water");
+    }
+
+}
+
+age = rasnawater(13);
+console.log(age);
