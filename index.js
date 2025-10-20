@@ -340,3 +340,9 @@ clearTimeout(clr1);
 clr = setInterval(logkaro,2000);
 clearInterval(clr)
 setInterval(logkaro,2000);
+
+// localstorage
+
+// localStorage.setItem();
+// localStorage.getItem();
+// localStorage.clear();
