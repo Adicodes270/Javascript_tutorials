@@ -307,3 +307,36 @@ let elemClass = document.getElementsByClassName('container');
 //         document.querySelectorAll('.container')[1].innerHTML = '<b>We have clicked bro</b>'
 //         console.log("Pressed on");
 // })
+
+
+// Arrow Functions
+sum = (a,b)=>{
+    return a+b;
+}
+
+logkaro = ()=>{
+    document.querySelectorAll('.container')[1].innerHTML = "<b> I AM IRON MAN </b>"
+}
+
+// logkaro2 = ()=>{
+//     console.log("I");
+// }
+
+// logkaro3 = ()=>{
+//     console.log("am");
+// }
+
+// logkaro4 = ()=>{
+//     console.log("Iron MAN");
+// }
+
+// setTimeout and setinterval
+clr1 = setTimeout(logkaro, 2000);
+clearTimeout(clr1);
+// setTimeout(logkaro2, 7000);
+// setTimeout(logkaro3, 12000);
+// setTimeout(logkaro4, 18000);
+
+clr = setInterval(logkaro,2000);
+clearInterval(clr)
+setInterval(logkaro,2000);
