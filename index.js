@@ -346,3 +346,13 @@ setInterval(logkaro,2000);
 // localStorage.setItem();
 // localStorage.getItem();
 // localStorage.clear();
+// localStorage.removeItem('name')
+
+// About JSON
+
+// obj = {name:"harry", length:1, a :{this: "that"}};
+// jso = JSON.stringify(obj);
+// console.log(jso);
+// console.log(obj);
+// parsed = JSON.parse(jso);
+// console.log(parsed);
